@@ -5,11 +5,11 @@ body {
   margin: 0 auto;
   padding: 2rem 1rem;
   color: #333333;
-  background-color: #f9f9f9;
+  background-color: #f5cec7;
 }
 
 h1 {
-  color: #0066cc;
+  color: #ffb284;
 }
 
 /* Container that holds all buttons in a flexible row */
@@ -27,7 +27,7 @@ h1 {
   justify-content: space-between;
   gap: 12px;
   padding: 12px 20px;
-  background-color: #0066cc;
+  background-color: #e79796;
   color: #ffffff;
   text-decoration: none;
   font-weight: 500;
@@ -38,7 +38,7 @@ h1 {
 
 /* Hover effect */
 .doc-card:hover {
-  background-color: #0052a3;
+  background-color: #7c1e1c;
   transform: translateY(-2px);
 }
 
