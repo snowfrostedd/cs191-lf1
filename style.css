@@ -5,11 +5,11 @@ body {
   margin: 0 auto;
   padding: 2rem 1rem;
   color: #333333;
-  background-color: #e79796;
+  background-color: #f5cec7;
 }
 
 h1 {
-  color: #ffb284;
+  color: #e79796;
 }
 
 /* Container that holds all buttons in a flexible row */
