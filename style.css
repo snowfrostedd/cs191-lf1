@@ -1,0 +1,13 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  color: #333333;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #0066cc;
+}
