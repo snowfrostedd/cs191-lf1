@@ -12,10 +12,49 @@ h1 {
   color: #0066cc;
 }
 
+/* Container that holds all buttons in a flexible row */
+.doc-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 1.5rem 0;
+}
+
+/* The clickable rectangle card */
+.doc-card {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 20px;
+  background-color: #0066cc;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Hover effect */
+.doc-card:hover {
+  background-color: #0052a3;
+  transform: translateY(-2px);
+}
+
+/* Small tag indicating file type */
+.doc-badge {
+  font-size: 0.75rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Preview frame */
 .pdf-frame {
   width: 100%;
-  height: 650px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  height: 600px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
   margin-top: 1rem;
 }
